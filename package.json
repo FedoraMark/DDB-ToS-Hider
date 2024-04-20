@@ -1,0 +1,10 @@
+{
+  "name": "ddb-tos-hider",
+  "version": "0.1.0",
+  "description": "Hide the ToS notification bar on DNDBeyond.",
+  "private": true,
+  "scripts": {
+    "watch": "node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js"
+  }
+}
